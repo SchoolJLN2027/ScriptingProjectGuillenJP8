@@ -10,13 +10,13 @@ public class Translate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        while (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow))
             transform.Translate(-Vector3.forward * moveSpeed * Time.deltaTime);
-        while (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
             transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
-        while (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
             transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
     }
 }

@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d01439f0b8dc9740a317754496fcaff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  turnSpeed: 50
+  moveSpeed: 50
+  turnSpeed: 200
 --- !u!54 &203188552
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -607,7 +607,7 @@ Transform:
   m_GameObject: {fileID: 2034097439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.22, y: -0.76355743, z: -5.67}
+  m_LocalPosition: {x: -6.22, y: -0.76355743, z: -5.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
