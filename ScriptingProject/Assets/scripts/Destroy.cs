@@ -9,7 +9,7 @@ public class Destroy : MonoBehaviour
     void Update()
     {
         //DestroyBasic
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Keypad1))
         {
             Destroy(gameObject);
         }
@@ -18,12 +18,6 @@ public class Destroy : MonoBehaviour
         if (Input.GetKey(KeyCode.Keypad0))
         {
             Destroy(other);
-        }
-
-        //DestroyComponent 
-        if (Input.GetKey(KeyCode.Keypad1))
-        {
-            Destroy(GetComponent<MeshRenderer>());
         }
     }
 }
