@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
         //Constructor
         public Stuff()
         {
-            bullets = 1;
+            bullets = 100;
             grenades = 1;
             rockets = 1; 
         }
