@@ -13,7 +13,7 @@ public class Array : MonoBehaviour
 
         for(int i = 0; i < players.Length; i++)
         {
-            Debug.Log("Player number "+i+" is named " + players[i].name);
+            Debug.Log("Player number "+(i+1)+" is named " + players[i].name);
         }
     }
 }
